@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "cityBusTransport",
-    "slug": "cityBusTransport",
+    "slug": "citybustransport",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,7 +21,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.milosdm98.citybustransport"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -29,6 +30,15 @@
     "plugins": [
       "expo-router"
     ],
-    "scheme": "your-app-scheme"
+    "scheme": "your-app-scheme",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "3a2cf049-2eb5-4a26-b658-f4ea38ea716f"
+      }
+    },
+    "owner": "milosdm98"
   }
 }
